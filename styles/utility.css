@@ -11,7 +11,7 @@
 }
 
 .px-lg {
-  padding-block: var(--py-lg);
+  padding-inline: var(--px-lg);
 }
 
 .container {
