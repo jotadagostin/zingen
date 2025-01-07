@@ -35,7 +35,7 @@
         <p>Sing was never so easy</p>
 
         <div class="buttons flex items-center gap-1">
-          <a href="#pricing" arial-label="See offers" class="btn btn-md"></a>
+          <a href="#pricing" aria-label="See offers" class="btn btn-md"></a>
           <a href="#download" class="btn btn-md">Download now</a>
         </div>
       </div>
@@ -124,6 +124,49 @@
             </p>
           </div>
           <img src="assets/Tela 3.png" alt="" class="desktop-only" />
+        </div>
+      </div>
+    </section>
+
+    <section id="pricing">
+      <div class="container py-xl">
+        <header>
+          <strong>Plans and Prices</strong>
+          <h2>Subscribe and get unlimited access to all features</h2>
+        </header>
+
+        <div class="cards even-columns items-center">
+          <div class="card py-lg px-lg">
+            <h3>Basic</h3>
+            <p>Download the app and start singing right now!</p>
+            <zin-pricing>Free</zin-pricing>
+            <a
+              href="#download"
+              aria-label="Download now"
+              class="btn btn-md"
+            ></a>
+            <div class="separator"></div>
+            <ul role="list" class="grid gap-1">
+              <li>With ads</li>
+              <li>Up to 5 songs per day</li>
+              <li>Cante apenas as músicas disponíveis no plano gratuito</li>
+            </ul>
+          </div>
+
+          <div class="card py-lg px-lg">
+            <h3>Family</h3>
+            <p>For those families who love to get together to sing</p>
+            <zin-pricing>$ 21,90 <small>/month per person </small></zin-pricing>
+            <a href="#" aria-label="Sign now" class="btn btn-md"></a>
+            <div class="separator"></div>
+            <ul role="list" class="grid gap-1">
+              <li>No ad interruptions</li>
+              <li>Sing as many songs as you want</li>
+              <li>Sing all the songs in the library</li>
+            </ul>
+
+            <small>Minimum of 4 people on the family plan. </small>
+          </div>
         </div>
       </div>
     </section>

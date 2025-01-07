@@ -42,19 +42,19 @@
   font-size: 1.125rem;
 }
 
-.btn[arial-label] {
+.btn[aria-label] {
   position: relative;
 
   &::before {
     content: "";
     position: absolute;
     border-radius: inherit;
-    inset: 1.5px;
+    inset: 1px;
     background-color: var(--bg-color);
   }
 
   &::after {
-    content: attr(arial-label);
+    content: attr(aria-label);
     background: var(--btn-bg-color);
     -webkit-background-clip: text;
     background-clip: text;
